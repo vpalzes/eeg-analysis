@@ -25,7 +25,7 @@ datadir = '';
 outdir = '';
 
 % Subject .mat files
-subs = dir([datadir '.mat']);
+subs = dir([datadir '*.mat']);
 subs = {subs.name}';
 
 % Load ICA data
